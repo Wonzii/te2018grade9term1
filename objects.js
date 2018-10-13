@@ -2,18 +2,18 @@ const READLINE = require('readline-sync');
 
 let userInput = READLINE.question("Type anything and I'll repeat it back!");
 console.log(userInput);
-
 // declare and assign a variable for pennies using readlineSync
 // ask the user how many pennies he/she wants change for
 
-let peenies = READLINE.quesion('please enter cents as a positive integer ');
+
+
 
 
 // declare, assign, and print how many quarters you can make out of the pennies
 
-let quarters =Math.floor(pennies/25);
 
-console.log(quarters, 'QUARTERS');  
+
+
 
 // declare, assign, and print how many dimes you can make out of the pennies
 
