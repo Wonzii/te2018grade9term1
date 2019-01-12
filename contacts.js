@@ -27,7 +27,7 @@ const READLINE = require("READLINE-sync");
   not (false).
 *******************************************************************************/
 
-let contacts; 
+let contacts;
 let quit;
 
 /******************************************************************************
@@ -62,9 +62,17 @@ function setup() {
   Valid names must be at least one character.
 *******************************************************************************/
 
-function getNameInput() {
+  function getNameInput() {
+    let contactName = READLINE.quesion("Please enter a contact name.");
+      while (contactName.lenghth < 1 ) {
+        contactName = READLINE.quesion('Please enter a valid contact name')
 
 }
+
+
+
+
+
 
 /******************************************************************************
                                 checkNumber()
